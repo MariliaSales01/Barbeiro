@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    font-family: 'Sora',sans-serif;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: var(--primary-normal);
+}
+:root{
+    --primary-light: #0c2135;
+    --primary-dark: #040f1a;
+    --primary-normal: #06121E;
+
+    --secondary-dark: #1a1f25;
+    --secondary-normal: #090d11;
+    --secondary-dark: #06090c;
+
+    --white-normal: #c4c4c4;
+    --white-dark: #edeaef;
+    --white-light: #fefbff;
+
+    --black-light: #353436;
+    --black-normal: #232224;
+    --black-dark: #161617;
+
+    --red-normal:#d94140;
+    --red-dark:#d42b2b;
+    --red-light:#d34040;
+
+}
+
+button{
+    cursor: pointer;
+}
+
+svg{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
